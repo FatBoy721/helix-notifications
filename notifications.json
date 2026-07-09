@@ -1,4 +1,6 @@
-[
+    [
+    { "id": "2026-07-09-slicer-update", "type": "changelog", "title": "Big slicer update",
+      "date": "2026-07-09", "body": "Multicolor prints now slice with their real colors. Pick a plate on multi-plate   files. New Print Preprocessing popup before sending: choose printer, remap tool heads, see per-color filament use.   Open .3mf/.stl files straight from your browser or file manager. New Supports, Infill, Ironing and Brim options on   the prepare screen. Plus: fixed the tab bar hiding behind Android's navigation buttons." },
     { "id": "2026-07-08-hello", "type": "info", "title": "Welcome to Helix beta",
       "date": "2026-07-08", "body": "Bell here shows changelogs and news. Thanks for testing." }
   ]
