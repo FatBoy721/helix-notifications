@@ -1,15 +1,23 @@
- [
+[
+    { "id": "2026-07-17-signed-builds", "type": "info", "title": "Signed builds — one-time reinstall",
+      "date": "2026-07-17", "body": "Helix releases are now signed with a private key — every update is
+  verifiably built from the official repo, and fake or tampered APKs can no longer install over the real
+  app. Android sees the new signature as a different publisher, so this one time the update button can't
+  install it for you. Export your settings first (Settings → Backup), uninstall Helix, grab the fresh APK
+  from GitHub, and import your backup — updates flow normally from then on. Release notes on GitHub now
+  show an actual changelog too, instead of a bare commit number." },
     { "id": "2026-07-09-upload-ace-fix", "type": "changelog", "title": "Upload fix + MultiACE overhaul",
-      "date": "2026-07-09", "body": "Fixed uploads timing out on big G-code files. The timeout now scales with file
-  size, so large prints reach the printer reliably. New Save button next to Upload lets you save G-code to your phone  for manual upload through the web UI. MultiACE tab rewritten against the real multiACE 0.99.2b status format:
-  lanes now show spool colors and RFID info, dryer status with humidity, and the active unit. Dryer controls now use
-  commands that work on ACE Pro V1 (previously ACE 2-only). If the tab shows nothing, update multiACE on your printer
-  first (ACE_UPDATE_APPLY)." },
+      "date": "2026-07-09", "body": "Fixed uploads timing out on big G-code files. The timeout now scales
+  with file size, so large prints reach the printer reliably. New Save button next to Upload lets you
+  save G-code to your phone for manual upload through the web UI. MultiACE tab rewritten against the real
+  multiACE 0.99.2b status format: lanes now show spool colors and RFID info, dryer status with humidity,
+  and the active unit. Dryer controls now use commands that work on ACE Pro V1 (previously ACE 2-only).
+  If the tab shows nothing, update multiACE on your printer first (ACE_UPDATE_APPLY)." },
     { "id": "2026-07-09-slicer-update", "type": "changelog", "title": "Big slicer update",
-      "date": "2026-07-09", "body": "Multicolor prints now slice with their real colors. Pick a plate on multi-plate
-  files. New Print Preprocessing popup before sending: choose printer, remap tool heads, see per-color filament use.
-  Open .3mf/.stl files straight from your browser or file manager. New Supports, Infill, Ironing and Brim options on
-  the prepare screen. Plus: fixed the tab bar hiding behind Android's navigation buttons." },
+      "date": "2026-07-09", "body": "Multicolor prints now slice with their real colors. Pick a plate on
+  multi-plate files. New Print Preprocessing popup before sending: choose printer, remap tool heads, see
+  per-color filament use. Open .3mf/.stl files straight from your browser or file manager. New Supports,
+  Infill, Ironing and Brim options on the prepare screen. Plus: fixed the tab bar hiding behind Android's
+  navigation buttons." },
     { "id": "2026-07-08-hello", "type": "info", "title": "Welcome to Helix beta",
       "date": "2026-07-08", "body": "Bell here shows changelogs and news. Thanks for testing." }
-  ]
